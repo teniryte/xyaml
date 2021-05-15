@@ -1,6 +1,6 @@
 {
   "name": "xyaml",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "main": "./lib/index.js",
   "description": "Extended YAML",
   "keywords": [],
@@ -12,7 +12,7 @@
   "dependencies": {
     "download-file-sync": "^1.0.4",
     "js-yaml": "^4.1.0",
-    "ooi": "0.0.51",
+    "ooi": "^0.1.55",
     "tmp": "^0.2.1"
   },
   "scripts": {
