@@ -1,0 +1,7 @@
+name: Denis Ivanov
+age: 29
+nextAge: ${this.age + 1}
+welcome: Hello
+getHello: fn (name) {
+  return `${this.welcome}, ${name}!`;
+}

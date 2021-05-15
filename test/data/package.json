@@ -1,0 +1,8 @@
+{
+  "name": "xyaml",
+  "version": "0.0.2",
+  "main": "./lib/index.js",
+  "description": "Extended YAML",
+  "keywords": [],
+  "homepage": "https://github.com/teniryte/xyaml"
+}
