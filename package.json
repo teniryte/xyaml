@@ -1,0 +1,32 @@
+{
+  "name": "xyaml",
+  "version": "0.1.2",
+  "main": "./lib/index.js",
+  "description": "Extended YAML",
+  "keywords": [],
+  "homepage": "https://github.com/teniryte/xyaml",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "download-file-sync": "^1.0.4",
+    "js-yaml": "^4.1.0",
+    "ooi": "0.0.51",
+    "tmp": "^0.2.1"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/jest ./test/index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teniryte/xyaml.git"
+  },
+  "author": {
+    "name": "teniryte",
+    "email": "teniryte@gmail.com"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
