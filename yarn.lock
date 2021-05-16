@@ -2669,10 +2669,10 @@ onetime@^5.1.0:
   dependencies:
     mimic-fn "^2.1.0"
 
-ooi@^0.1.55:
-  version "0.1.56"
-  resolved "https://registry.npmjs.org/ooi/-/ooi-0.1.56.tgz#2cca6b84f8ce738375a0d1467e4bcd2d388d17d0"
-  integrity sha512-EQS918AUJPGvZ8ycEUxFBYzSl6vlOUjLrUBcibSRtga4bKzysz+iaFjBG+t3idybnWGdwj0q74silEWboCL8TA==
+ooi@^0.1.60:
+  version "0.1.60"
+  resolved "https://registry.npmjs.org/ooi/-/ooi-0.1.60.tgz#199b6d934a8106d91c04c3d8c2dd751e23b65977"
+  integrity sha512-fguUmCZQ0Y+2g1oQeWpLANGAhT9bADM/fbmjivpaUc93f9gYqjg2cE0pVdnJ7yY84LzoorxHHScllTWfCoKUFA==
 
 optionator@^0.8.1:
   version "0.8.3"
