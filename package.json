@@ -1,19 +1,19 @@
 {
   "name": "xyaml",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "main": "./lib/index.js",
   "description": "Extended YAML",
   "keywords": [],
   "homepage": "https://github.com/teniryte/xyaml",
   "license": "MIT",
   "devDependencies": {
-    "colors": "^1.4.0"
+    "jest": "^26.6.3"
   },
   "dependencies": {
+    "colors": "^1.4.0",
     "download-file-sync": "^1.0.4",
-    "jest": "^26.6.3",
     "js-yaml": "^4.1.0",
-    "ooi": "^0.1.55",
+    "ooi": "^0.1.60",
     "tmp": "^0.2.1"
   },
   "scripts": {
