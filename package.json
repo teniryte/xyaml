@@ -1,6 +1,6 @@
 {
   "name": "xyaml",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "main": "./lib/index.js",
   "description": "Extended YAML",
   "keywords": [],
