@@ -1,0 +1,6 @@
+name: extending-js
+description: Loads .js files
+
+extended:
+  files: ~import files.js ../../lib 1 2 3
+  ~include: logger.js 1 2 3

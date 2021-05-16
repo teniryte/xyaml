@@ -1,0 +1,11 @@
+name: extending
+description: Include and import external files
+
+data:
+  description: Data container for includes and imports
+
+  ~include:
+    - fruits
+    - languages
+
+  colors: ~import colors

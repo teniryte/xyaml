@@ -1,0 +1,27 @@
+{
+  "header": {
+    "bg": "#333",
+    "size": "100px",
+    "color": "#fff"
+  },
+  "menu": {
+    "bg": "#444",
+    "size": "200px",
+    "color": "#eee"
+  },
+  "sidebar": {
+    "bg": "#555",
+    "size": "300px",
+    "color": "#ddd"
+  },
+  "content": {
+    "bg": "#666",
+    "size": "400px",
+    "color": "#ccc"
+  },
+  "footer": {
+    "bg": "#777",
+    "size": "500px",
+    "color": "#bbb"
+  }
+}

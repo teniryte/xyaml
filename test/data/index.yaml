@@ -1,9 +1,0 @@
-ui: ~import 'ui'
-common: ~include 'common'
-pk: ~import './package'
-config: ~include './config'
-downloadTest: ~include 'https://cdn.sencort.com/test.yaml'
-users:
-  - teniryte
-  - teu
-  - zuncou

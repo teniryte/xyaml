@@ -1,0 +1,41 @@
+username: teniryte
+email: teniryte@gmail.com
+
+math:
+
+  numbers:
+    - ${add(1, 2)}
+    - ${add(1, 3)}
+    - ${add(1, 4)}
+    - ${add(1, 5)}
+    - ${add(1, 6)}
+
+  sum: ${add(55, 44)}
+
+  add: (a, b) => {
+    return a + b;
+  };
+
+paths:
+  users: /home
+  home: ${users}/teniryte
+  work: ${home}/work
+  config: ${work}/config
+  packages: ${work}/packages
+  tools: ${work}/tools
+  rootPackage: /home
+
+catalogs:
+  - ${paths.work}/tools
+  - ${paths.work}/packages
+  - ${self.paths.work}/projects
+
+counter:
+  - ${paths.home}/work/${math.add(0, 1)}
+  - ${paths.home}/work/${math.add(0, 2)}
+  - ${paths.home}/work/${math.add(0, 3)}
+  - ${paths.home}/work/${math.add(0, 4)}
+  - ${paths.home}/work/${math.add(0, 5)}
+
+eval:
+  - self.delete('math.add');

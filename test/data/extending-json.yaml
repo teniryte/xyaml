@@ -1,0 +1,6 @@
+name: extending-json
+description: Loads .json files
+
+container:
+  package: ~import package.json
+  ~include: layout.json

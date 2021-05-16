@@ -1,0 +1,5 @@
+name: extending-url
+description: Load url files
+
+extended:
+  ~include: https://cdn.sencort.com/xyaml/test/index.yaml
