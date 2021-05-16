@@ -1,22 +1,23 @@
 {
   "name": "xyaml",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "main": "./lib/index.js",
   "description": "Extended YAML",
   "keywords": [],
   "homepage": "https://github.com/teniryte/xyaml",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^26.6.3"
+    "colors": "^1.4.0"
   },
   "dependencies": {
     "download-file-sync": "^1.0.4",
+    "jest": "^26.6.3",
     "js-yaml": "^4.1.0",
     "ooi": "^0.1.55",
     "tmp": "^0.2.1"
   },
   "scripts": {
-    "test": "./node_modules/.bin/jest ./test/index.test.js"
+    "test": "./node_modules/.bin/jest --config ./jest.config.js"
   },
   "repository": {
     "type": "git",
